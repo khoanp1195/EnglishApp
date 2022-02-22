@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background24">
+
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:layout_marginTop="180dp"
+
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="Đăng nhập hệ thống"
+        android:textColor="#222222"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editTextEmail1"
+        android:layout_width="match_parent"
+        android:layout_height="106dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName" />
+
+    <EditText
+
+        android:id="@+id/editTextPassword1"
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/buttonDangnhap"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Đăng nhập"
+        android:background="@drawable/custom"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="211dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/stayhome" />
+
+
+</LinearLayout>

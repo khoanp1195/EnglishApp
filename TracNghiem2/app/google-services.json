@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "335297215535",
+    "firebase_url": "https://trac-nghiem-2-20ffc.firebaseio.com",
+    "project_id": "trac-nghiem-2-20ffc",
+    "storage_bucket": "trac-nghiem-2-20ffc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:335297215535:android:93405504a18e7113de1ada",
+        "android_client_info": {
+          "package_name": "com.example.tracnghiem2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "335297215535-vnsmf8r4eik2j96b3q3r92np67mb5kat.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5cjPt3qpVY7zjhBCoZaC8ZUt8KFP0TxM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "335297215535-vnsmf8r4eik2j96b3q3r92np67mb5kat.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

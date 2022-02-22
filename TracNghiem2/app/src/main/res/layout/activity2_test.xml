@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgorund2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/background3"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="158dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@drawable/clock" />
+
+            <TextView
+                android:id="@+id/minute"
+                android:layout_width="104dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="60:00"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="#ffffff" />
+
+            <TextView
+                android:id="@+id/tvKiemtra"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Check answer"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/tvScore"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Xem điểm"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/TxtCauhoi"
+        android:layout_width="357dp"
+        android:layout_height="99dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#ffff"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/ivIcon"
+        android:layout_width="377dp"
+        android:layout_height="107dp"
+        android:layout_gravity="center" />
+
+    <RadioGroup
+        android:id="@+id/RadioGroupTraloi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:layout_below="@+id/TxtCauhoi"
+        android:padding="10dp"
+        >
+        <RadioButton
+            android:id="@+id/RdbA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A. "
+            android:textSize="18dp"
+            android:padding="10dp"
+            android:background="@drawable/custom_button"
+            />
+        <RadioButton
+            android:id="@+id/RdbB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="B. "
+            android:textSize="18dp"
+            android:padding="10dp"
+            android:background="@drawable/custom_button"
+            />
+        <RadioButton
+            android:id="@+id/RdbC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="C. "
+            android:textSize="18dp"
+            android:padding="10dp"
+            android:background="@drawable/custom_button"
+            />
+        <RadioButton
+            android:id="@+id/RdbD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="D. "
+            android:textSize="18dp"
+            android:padding="10dp"
+            android:background="@drawable/custom_button"
+            />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/BtnTraloi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/RadioGroupTraloi"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:text="Trả lời"
+        android:textSize="25dp"
+        android:background="@drawable/custom12"
+
+        />
+    <TextView
+        android:id="@+id/TxtKetqua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:layout_below="@+id/BtnTraloi"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:background="@drawable/custom_button"
+        />
+    <LinearLayout
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/bgSpeaker"
+        android:layout_width="142dp"
+        android:layout_height="46dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:button="@drawable/checkbox" />
+
+
+
+
+</LinearLayout>

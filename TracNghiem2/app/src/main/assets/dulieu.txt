@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Questionare1>
+    <Item>
+           <ID>1</ID>
+           <Question>you have ten ..... We see with them.</Question>
+           <AnswerA>eyes</AnswerA>
+           <AnswerB>legs</AnswerB>
+           <AnswerC>hands</AnswerC>
+           <AnswerD>ears</AnswerD>
+           <Answer>A</Answer>
+       </Item>
+       <Item>
+           <ID>2</ID>
+           <Question>Using Facebook, you can post update sayings about your life every day.</Question>
+           <AnswerA>Locate</AnswerA>
+           <AnswerB>Displace</AnswerB>
+           <AnswerC>establish</AnswerC>
+           <AnswerD>put up</AnswerD>
+           <Answer>B</Answer>
+       </Item>
+       <Item>
+           <ID>3</ID>
+           <Question>We ought to keep these proposals secret from the chairman for the time being.</Question>
+           <AnswerA>Lively</AnswerA>
+           <AnswerB>frequented</AnswerB>
+           <AnswerC>accessible</AnswerC>
+           <AnswerD>Reavealed</AnswerD>
+           <Answer>D</Answer>
+       </Item>
+       <Item>
+           <ID>4</ID>
+           <Question>I have a modest little glass fish tank where I keep a variety of small fish.</Question>
+           <AnswerA>Moderated</AnswerA>
+           <AnswerB>Limited</AnswerB>
+           <AnswerC>narrow</AnswerC>
+           <AnswerD>large</AnswerD>
+           <Answer>D</Answer>
+       </Item>
+       <Item>
+           <ID>5</ID>
+           <Question>The majority of people in the town strongly support the plans to build a new school.</Question>
+           <AnswerA>in favour of</AnswerA>
+           <AnswerB>refuse</AnswerB>
+           <AnswerC>agree</AnswerC>
+           <AnswerD>endanger</AnswerD>
+           <Answer>B</Answer>
+       </Item>
+       <Item>
+               <ID>6</ID>
+               <Question>Câu 1: The government is aiming ___________ 50% reduction ______ unemployment</Question>
+               <AnswerA>at/of</AnswerA>
+               <AnswerB>in/to</AnswerB>
+               <AnswerC>on/at</AnswerC>
+               <AnswerD>at/in</AnswerD>
+               <Answer>D</Answer>
+           </Item>
+           <Item>
+               <ID>7</ID>
+               <Question>Many young people in rural areas don`t want to spend their lives on the farm like ______ parents.</Question>
+               <AnswerA>No sooner/when</AnswerA>
+               <AnswerB>Scarcely had/when</AnswerB>
+               <AnswerC>Scarcely/when </AnswerC>
+               <AnswerD>Hardly/when</AnswerD>
+               <Answer>B</Answer>
+           </Item>
+           <Item>
+               <ID>8</ID>
+               <Question> ________ they arrived __________ they were told to go back..</Question>
+               <AnswerA>Lively</AnswerA>
+               <AnswerB>frequented</AnswerB>
+               <AnswerC>accessible</AnswerC>
+               <AnswerD>Reavealed</AnswerD>
+               <Answer>D</Answer>
+           </Item>
+           <Item>
+               <ID>9</ID>
+               <Question> Laura: “What shall we do this evening? - Annie: “ _____”</Question>
+               <AnswerA> I went out for dinner.  </AnswerA>
+               <AnswerB>Oh, that’s bad!</AnswerB>
+               <AnswerC>No problem</AnswerC>
+               <AnswerD>Let’s go out for dinner.</AnswerD>
+               <Answer>D</Answer>
+           </Item>
+           <Item>
+               <ID>10</ID>
+               <Question> Kathy: “Make yourself at home” – Jim: “ ______”</Question>
+               <AnswerA>Yes. Can I help you?</AnswerA>
+               <AnswerB>Not at all. Don’t mention it.</AnswerB>
+               <AnswerC>That’s very kind. Thank you. </AnswerC>
+               <AnswerD>Thanks! Same to you.</AnswerD>
+               <Answer>C</Answer>
+           </Item>
+</Questionare1>

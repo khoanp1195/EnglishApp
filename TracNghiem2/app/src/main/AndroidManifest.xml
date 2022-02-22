@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tracnghiem2">
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="tracnghiem2"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity_Sanh">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".TracNghiem"/>
+        <activity android:name=".Result.activity_result"/>
+        <activity android:name=".Activity_Mucdo.activity_test2"/>
+        <activity android:name=".SaveScore"/>
+        <activity android:name=".quanlysinhvien.MainActivity"/>
+        <activity android:name=".TipsEnglish"/>
+        <activity android:name=".quanlysinhvien.ThemSvActivity" />
+        <activity android:name=".quanlysinhvien.SuaSinhVienActivity"/>
+        <activity android:name=".Danhsachsinhvien"/>
+        <activity android:name=".Activities.activity"/>
+        <activity android:name=".DangKy"/>
+       <activity android:name=".DangNhap"/>
+        <activity android:name=".Start.EasyStart"/>
+
+        <activity android:name=".Start.VeryHardStart"/>
+        <activity android:name=".Start.HardStart"/>
+        <activity android:name=".choosenumenglish"/>
+        <activity android:name=".Activity_Mucdo.activity_cat1"/>
+        <activity android:name=".Activity_Mucdo.activity_cat2"/>
+        <activity android:name=".Activity_Mucdo.activity_cat3"/>
+        <activity android:name=".Activity_Mucdo.activity_cat4"/>
+        <activity android:name=".Activity_Mucdo.activity_cat5"/>
+        <activity android:name=".Activities.activity1"/>
+        <activity android:name=".Activities.activity2"/>
+        <activity android:name=".Activities.activity3"/>
+        <activity android:name=".Activities.activity4"/>
+        <activity android:name=".Activities.activity5"/>
+        <activity android:name=".Start1.EasyStart"/>
+        <activity android:name=".Start1.HardStart"/>
+        <activity android:name=".Start1.VeryHardStart"/>
+        <activity android:name=".Start2.EasyStart"/>
+        <activity android:name=".Start2.HardStart"/>
+        <activity android:name=".Start2.VeryHardStart"/>
+        <activity android:name=".Start3.EasyStart"/>
+        <activity android:name=".Start3.HardStart"/>
+        <activity android:name=".Start3.VeryHardStart"/>
+        <activity android:name=".Start4.EasyStart"/>
+        <activity android:name=".Start4.HardStart"/>
+        <activity android:name=".Start4.VeryHardStart"/>
+        <activity android:name=".Start5.EasyStart"/>
+        <activity android:name=".Start5.HardStart"/>
+        <activity android:name=".Start5.VeryHardStart"/>
+        <activity android:name=".Result.activity_result1"/>
+        <activity android:name=".Result.activity_result2"/>
+        <activity android:name=".Result.activity_result3"/>
+        <activity android:name=".Result.activity_result4"/>
+        <activity android:name=".Result.activity_result5"/>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/background25"
+    >
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="580dp"
+        app:lottie_rawRes="@raw/quizz"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        />
+    <Button
+        android:id="@+id/BtnsSignin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/BtnKho"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/custom_button2"
+        android:text="SIGN UP"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="541dp" />
+    <Button
+        android:id="@+id/BtnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/custom_button2"
+        android:text="Sign IN"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="-103dp"
+        tools:layout_editor_absoluteY="602dp" />
+</LinearLayout>

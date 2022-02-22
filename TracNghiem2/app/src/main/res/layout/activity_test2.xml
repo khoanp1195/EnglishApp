@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background27">
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="match_parent"
+            android:layout_height="430dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/santaclaus" />
+        <Button
+            android:id="@+id/BtnDe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Easy"
+            android:textSize="20dp"
+            android:layout_marginTop="500dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/custom_button"/>
+
+
+        <Button
+            android:id="@+id/BtnKho"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/BtnDe"
+            android:text="Normal"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"
+            android:background="@drawable/custom_button"/>
+
+        <Button
+            android:id="@+id/Btnratkho"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/BtnKho"
+            android:layout_centerHorizontal="true"
+            android:text="Hard"
+            android:textSize="20dp"
+            android:background="@drawable/custom_button"/>
+        <Button
+            android:id="@+id/BtnBack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Btnratkho"
+            android:layout_centerHorizontal="true"
+
+            android:text="Back"
+            android:textSize="20dp"
+            android:background="@drawable/custom_button"/>
+
+    </RelativeLayout>
+</LinearLayout>

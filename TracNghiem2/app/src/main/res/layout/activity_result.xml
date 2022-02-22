@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background3">
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/win1" />
+
+
+    <org.eazegraph.lib.charts.PieChart
+        android:id="@+id/piechart"
+        android:layout_width="wrap_content"
+        android:layout_height="63dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="115dp"
+        android:layout_marginBottom="15dp"
+        android:layout_weight="1"
+        android:padding="6dp" />
+
+
+    <LinearLayout
+        android:layout_width="428dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:layout_gravity="center_vertical">
+
+            <!--View to display the yellow color icon-->
+            <View
+                android:layout_width="15dp"
+                android:layout_height="match_parent"
+                android:background="@color/CPP" />
+
+            <!--Text view to display R -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="Sai"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+        <!--Linear layout to display Python-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="5dp">
+
+            <!--View to display the green color icon-->
+            <View
+                android:layout_width="15dp"
+                android:layout_height="match_parent"
+                android:background="@color/Java" />
+
+            <!--Text view to display python text -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="Đúng"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+        <!--Linear layout to display C++-->
+
+        <!--Linear layout to display Java-->
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/KQ"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_marginBottom="100dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="100 điểm"
+        android:textColor="#ff0000"
+
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnSaveSv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom12"
+        android:text="Save info player" />
+
+    <Button
+            android:text="Save Score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnSaveScore"
+            android:background="@drawable/custom12"
+            />
+
+    <Button
+        android:id="@+id/Btnagain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom12"
+
+        android:text="Exit" />
+    </LinearLayout>
+
+
+
